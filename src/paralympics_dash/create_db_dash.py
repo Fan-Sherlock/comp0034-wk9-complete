@@ -89,7 +89,7 @@ def create_db():
     # For the location table we want the pandas index, but it needs to start from 1 and not 0
     loc_df.index += 1
     loc_df.to_sql("location", connection, if_exists="append", index_label="id")
-
+111
     # 8. Close the database connection
     connection.close()
 
