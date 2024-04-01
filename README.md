@@ -24,7 +24,7 @@ Remember to run `pip install -e .`
 The 4 apps can be run from the terminal as follows, you may need to use 'py' or 'python3' instead of 'python' depending
 on your operating system and python version:
 
-- Dash app: `python src/paralympics_dash/paralympics_dash.py`
-- Flask REST API app (coursework 1): `flask --app paralympics_rest run`
+- Dash app: `python src/paralympics_dash/paralympics_app.py`
+- Flask REST API app (coursework 1): `flask --app src/paralympics_rest run`
 - Flask app: `flask --app paralympics_flask run`
 - Flask ML app (Iris prediction): `flask --app "flask_iris:create_app('test')" run`
